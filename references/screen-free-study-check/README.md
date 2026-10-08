@@ -32,5 +32,6 @@ V1.2需要至少四项修订：删去“无法预判单次的等待结果”，�
 
 - input-v1.txt / input-v1.1.txt / input-v1.2.txt：实际完整发送文本，固定虚构笔记与对应版本提示词。
 - output-v1-original.md / output-v1.1-original.md / output-v1.2-original.md：实际下载原始输出；Markdown转义来自原导出。
+- [human-edited-reference.zh.md](human-edited-reference.zh.md)：对固定虚构输入逐项校订的中文参考；不是第四次模型输出，不覆盖原始失败记录，也不证明提示词稳定有效。实际三段正文与附录重新对应，保留算术冲突、虚构性质和未核验的20%结论。
 
 产品角色说明：贡献者是「自听」MyListen开发者，但可复制提示词不会加入产品名、购买入口或宣传语；此案例可配合任意收听工具使用。

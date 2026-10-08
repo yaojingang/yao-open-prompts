@@ -2,6 +2,8 @@
 
 与[学习笔记离屏听稿整理器](../prompts/03-ai-learning/screen-free-study-narration.md)配套。
 
+另见[三次独立对话实际检查](screen-free-study-check/README.md)：保存完整输入、原始下载输出与尚未修复的错误。人工核查例子与实际模型生成检查分别记录。
+
 本文件是人工整理的验收参考，不是模型调用日志或提示词效果实验。讲稿和提示词由Ryan Zhu与AI辅助制作；贡献者是「自听」MyListen开发者。可配合任意文字转语音工具，不需要购买App。
 
 ## 例子：一个不能漏掉的SQL反例

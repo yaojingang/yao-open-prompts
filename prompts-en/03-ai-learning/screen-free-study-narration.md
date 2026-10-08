@@ -4,7 +4,7 @@ category: "AI Learning"
 subcategory: "Study Narration"
 source_section: "prompts/03-ai-learning/screen-free-study-narration.md"
 author: "Ryan Zhu"
-version: "V1.0-en"
+version: "V1.2-en"
 created: "2026-10-09"
 status: "active"
 tags: "Narration, Study Notes, Long Text, Source Review"
@@ -14,7 +14,7 @@ tags: "Narration, Study Notes, Long Text, Source Review"
 
 ## Introduction
 
-Turn existing study notes into a review script that makes sense without viewing tables or code, with a separate factual-check appendix. This prompt prepares text; it does not synthesize speech or promise learning benefits.
+Turn existing study notes into a review script that makes sense without viewing tables or code, with a separate factual-check appendix. This prompt prepares text; it does not synthesize speech or promise learning benefits. A single-run check still showed overstated claims and incorrect appendix mappings; human review is required before synthesis.
 
 ## Prompt
 
@@ -36,12 +36,12 @@ Process:
 2. If notes conflict with results, explain the conflict and relevant passage. Do not silently correct facts, choose a convenient version, or claim you ran code or checked websites. Suspend conclusions that depend on missing evidence; ask only for information necessary to complete them. You may prepare other sections meanwhile.
 3. Write continuous spoken prose following the causal or comparative structure of the original problem. Reintroduce people, objects, and their states when switching examples. Replace "see the table above," "row two," or "this formula" with specific meaning a listener can follow, without losing the referent.
 4. Do not read long code, URLs, or complex formulas character by character. Explain what the code answers, what the conditions check, and why the results follow. Place original code, formulas, URLs, and itemized results in the appendix. This must not remove decisive conditions or counterexamples. Keep necessary terms and explain them on first use; do not invent pronunciations without reliable information.
-5. Preserve units, denominators, date ranges, samples, and comparison groups. Do not change unknown values to zero, correlation to causation, or a logical explanation order to a physical execution sequence. Limit conclusions to the supplied conditions.
-6. Add examples only when allowed, explicitly labeling invented examples as fictional. Do not invent seemingly real studies, user experiences, expert opinions, or sources. If adding a self-check question, explain the answer using the supplied evidence afterward.
-7. Compare every part of the narration with the appendix for missing objects, conditions, counterexamples, and uncertainty. Keep unverified claims marked; a self-rating such as "fully accurate" is not evidence.
+5. Preserve units, denominators, date ranges, samples, and comparison groups. List each missing field rather than saying only "insufficient evidence"; do not guess months, metrics, or comparison groups. Do not change unknown values to zero, correlation to causation, or a logical explanation order to a physical execution sequence. Limit conclusions to the supplied conditions. Do not expand "cannot guarantee a particular outcome" into "can never predict"; preserve the strength and scope of each claim.
+6. Add examples only when allowed, explicitly labeling invented examples as fictional. Preserve any existing fictional label both at the first mention in the narration and in the appendix; never describe fictional inputs as real samples or users. Checking arithmetic does not establish real-world provenance. Do not invent seemingly real studies, user experiences, expert opinions, or sources. If adding a self-check question, explain the answer using the supplied evidence afterward.
+7. Compare every part of the narration with the appendix for missing objects, conditions, counterexamples, and uncertainty. Number the actual narration paragraphs before mapping their locations; do not invent paragraph numbers. Check the strength of each claim in both sections: a claim marked unverified in the appendix must remain attributed to the notes in the narration, not presented as established fact. Keep unverified claims marked; a self-rating such as "fully accurate" is not evidence.
 
 Return three separate parts:
 A. Spoken narration: natural continuous paragraphs, without source URLs, code blocks, or visual references. State fictional-example or AI-assistance disclosures in normal speech when applicable. Do not automatically add products, purchase links, or promotional copy.
-B. Check appendix: map original passage / narration location / retained facts and conditions / corresponding supplied result or source / verification status. Include original code, tables, and URLs here. Do not fabricate missing sources.
+B. Check appendix: map original passage / narration location / retained facts and conditions / corresponding supplied result or source / verification status. Include original code, tables, and URLs here. Split verification status into provenance and content support, for example "declared fictional input; arithmetic supported for the supplied values," rather than simply "true," "real samples," or "fully correct." Mark real-world facts without provenance as source unverified. Do not fabricate missing sources.
 C. Open questions and actual edits: list conflicts, unverified claims, material moved to the appendix, and explicitly added fictional examples. State that this task prepared text only; audio, copyright, and learning outcomes require separate verification.
 ```

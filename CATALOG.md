@@ -1,6 +1,6 @@
 # 提示词目录
 
-当前共拆分出 **135** 个提示词文件。
+当前共拆分出 **136** 个提示词文件。
 
 ## 分类统计
 
@@ -8,7 +8,7 @@
 | --- | ---: | --- |
 | AI方法 | 8 | 元提示词、反编译、网页逆向和提示词工程方法。 |
 | AI工作 | 10 | 面向企业、合同、销售、客服、产品原型、PPT、网页等生产力场景。 |
-| AI学习 | 11 | 学习方法、记忆术、费曼提问、习惯养成和学习助理。 |
+| AI学习 | 12 | 学习方法、记忆术、费曼提问、习惯养成和学习助理。 |
 | AI生活 | 2 | 健康、亲子歌曲等生活场景。 |
 | AI教育 | 4 | 儿童教育、互动学习页面和小游戏创作。 |
 | AI内容 | 50 | 写作、润色、标题、公众号 HTML、短视频、内容运营、图像和 PPT 创意。 |
@@ -49,6 +49,7 @@
 | AI学习 | 学习方法 | [超级记忆术：把概念变成画面](prompts/03-ai-learning/learning-methods/super-memory-method.md) | active | 学习方法 |
 | AI学习 | 记忆术 | [世界记忆大师的记忆底层逻辑](prompts/03-ai-learning/memory-technique-coach.md) | active | 记忆术 |
 | AI学习 | 习惯养成 | [个性化习惯养成计划](prompts/03-ai-learning/personalized-habit-formation-planner.md) | active | 习惯养成 |
+| AI学习 | 复习听稿 | [学习笔记离屏听稿整理器](prompts/03-ai-learning/screen-free-study-narration.md) | active | 听稿 |
 | AI生活 | 健康 | [个性化健康报告及行动建议](prompts/04-ai-life/personalized-health-report.md) | active | 健康报告 |
 | AI生活 | 歌曲 | [个性化亲子歌曲提示词](prompts/04-ai-life/personalized-parent-child-song.md) | active | 歌曲 |
 | AI教育 | 儿童游戏 | [儿童小游戏：迷宫挖掘游戏](prompts/05-ai-education/children-games/child-game-maze-digging.md) | active | 儿童游戏 |

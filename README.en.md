@@ -8,7 +8,7 @@ The main repository is organized around the Chinese prompt library. This English
 
 ## English Prompt Library
 
-**[135 English Prompts](prompts-en/README.md)**: one English file for every Chinese prompt file in `prompts/`, using the same relative path under `prompts-en/`.
+**[136 English Prompts](prompts-en/README.md)**: one English file for every Chinese prompt file in `prompts/`, using the same relative path under `prompts-en/`.
 
 Each English prompt is stored as an independent Markdown file and points back to its matching Chinese source file through the `source_section` frontmatter field.
 

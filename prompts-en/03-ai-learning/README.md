@@ -2,7 +2,7 @@
 
 Learning methods, memory techniques, questioning methods, habits, and learning coaching.
 
-Prompt files: **11**.
+Prompt files: **12**.
 
 | Prompt | Subcategory | Source |
 | --- | --- | --- |
@@ -17,3 +17,4 @@ Prompt files: **11**.
 | [Super Memory Method](learning-methods/super-memory-method.md) | Learning Methods | `prompts/03-ai-learning/learning-methods/super-memory-method.md` |
 | [Memory Technique Coach](memory-technique-coach.md) | 03 AI Learning | `prompts/03-ai-learning/memory-technique-coach.md` |
 | [Personalized Habit Formation Planner](personalized-habit-formation-planner.md) | 03 AI Learning | `prompts/03-ai-learning/personalized-habit-formation-planner.md` |
+| [Screen-Free Study Narration Editor](screen-free-study-narration.md) | Study Narration | `prompts/03-ai-learning/screen-free-study-narration.md` |
